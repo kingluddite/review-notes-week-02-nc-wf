@@ -20,6 +20,12 @@ h1 {
   text-align: center;
 }
 
+h2.special {
+  color: blue;
+}
+h2#super-special {
+  color: green;
+}
 .review {
   background-color: #ffffff;
   border-radius: 5px;

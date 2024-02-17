@@ -1,0 +1,38 @@
+/* Set margin, padding, and background color for the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Set width, margin, and padding for the container */
+.container {
+  width: 80%; /* Set the width to 80% of the viewport width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+}
+
+/* Style for the movie review box */
+.review {
+  background-color: #fff; /* Set background color to white */
+  border-radius: 5px; /* Add rounded corners to the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 20px; /* Add padding inside the box */
+  margin-bottom: 20px; /* Add margin at the bottom of each box */
+}
+
+/* Style for the movie title */
+.review h2 {
+  /* No specific styling, default heading styles apply */
+  color: blue;
+}
+
+/* Style for the movie review text */
+.review p {
+  /* No specific styling, default paragraph styles apply */
+}
+
+/* Style for the rating */
+.review strong {
+  color: #ff9f00; /* Orange color for the rating text */
+}

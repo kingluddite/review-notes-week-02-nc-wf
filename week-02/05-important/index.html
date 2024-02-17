@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example of !important in CSS</title>
+  <style>
+    /* Initial styling for buttons */
+    .button {
+      background-color: red !important;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    /* Attempt to override with a specific class */
+    .special-button {
+      background-color: blue !important;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Example of !important in CSS</h1>
+
+  <!-- Buttons -->
+  <button class="button">Normal Button</button>
+  <button class="button special-button">Special Button</button>
+
+  <p>
+    The special button should have a blue background, but because of the <code>!important</code> declaration,
+    it still has a red background, overriding the attempt to change it to blue.
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+/* Grouping selectors */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Pseudo-classes */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Attribute selectors */
+input[type="text"]:focus,
+textarea:focus {
+  border: 3px dashed #4caf50;
+}
+
+/* Combinators */
+label + input[type="text"] {
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
