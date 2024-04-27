@@ -1,0 +1,16 @@
+{
+  "name": "01-movie-review",
+  "version": "1.0.0",
+  "description": "Element's width/height does not include the length of the padding, border, and margin ### Helpful URL * https://gist.github.com/kingluddite/bbfedab62b16817062edd64207856870",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.10.8"
+  }
+}
